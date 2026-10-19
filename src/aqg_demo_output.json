@@ -1,0 +1,381 @@
+{
+  "schema_version": "1.0",
+  "model": null,
+  "generation_mode": "template_fallback_no_model_weights",
+  "input_chunks": 2,
+  "candidate_count": 10,
+  "quiz_count": 10,
+  "quizzes": [
+    {
+      "id": "Q001",
+      "lang": "id",
+      "question": "Lengkapi pernyataan berdasarkan materi: Topik: _____ | Poin Penting: - Kecepatan rata-rata dihitung dengan rumus v = s / t. - Sebuah benda menempuh jarak 120 m dalam waktu 10 s, sehingga kecepatan rata-ratanya 12 m/s. - Kecepatan menunjukkan perubahan posisi terhadap waktu",
+      "question_type": "essay",
+      "answer": "Gerak Lurus",
+      "answer_type": "text",
+      "options": null,
+      "distractors": [],
+      "alignment_check": null,
+      "candidate_score": 7.2,
+      "candidate_source": "bold_text",
+      "question_source": "template_fallback",
+      "source_file": "sample_ppt_id",
+      "section": "Gerak Lurus",
+      "chunk_index": 1
+    },
+    {
+      "id": "Q002",
+      "lang": "id",
+      "question": "Lengkapi pernyataan berdasarkan materi: Topik: Gerak Lurus | Poin Penting: - Kecepatan rata-rata dihitung dengan rumus _____. - Sebuah benda menempuh jarak 120 m dalam waktu 10 s, sehingga kecepatan rata-ratanya 12 m/s. - Kecepatan menunjukkan perubahan posisi terhadap waktu",
+      "question_type": "multiple_choice",
+      "answer": "v = s / t",
+      "answer_type": "formula",
+      "options": [
+        {
+          "label": "A",
+          "text": "v = s × t",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "v = s / t",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "v = s + t",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "v = s - t",
+          "is_correct": false
+        }
+      ],
+      "distractors": [
+        "v = s × t",
+        "v = s + t",
+        "v = s - t"
+      ],
+      "alignment_check": true,
+      "candidate_score": 9.5,
+      "candidate_source": "formula_span",
+      "question_source": "template_fallback",
+      "source_file": "sample_ppt_id",
+      "section": "Gerak Lurus",
+      "chunk_index": 1
+    },
+    {
+      "id": "Q003",
+      "lang": "id",
+      "question": "Lengkapi pernyataan berdasarkan materi: Topik: Gerak Lurus | Poin Penting: - Kecepatan rata-rata dihitung dengan rumus v = s / t. - Sebuah benda menempuh jarak _____ dalam waktu 10 s, sehingga kecepatan rata-ratanya 12 m/s. - Kecepatan menunjukkan perubahan posisi terhadap waktu",
+      "question_type": "multiple_choice",
+      "answer": "120 m",
+      "answer_type": "number",
+      "options": [
+        {
+          "label": "A",
+          "text": "120 m",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "130 m",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "60 m",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "240 m",
+          "is_correct": false
+        }
+      ],
+      "distractors": [
+        "60 m",
+        "240 m",
+        "130 m"
+      ],
+      "alignment_check": null,
+      "candidate_score": 7.7,
+      "candidate_source": "number_with_unit",
+      "question_source": "template_fallback",
+      "source_file": "sample_ppt_id",
+      "section": "Gerak Lurus",
+      "chunk_index": 1
+    },
+    {
+      "id": "Q004",
+      "lang": "id",
+      "question": "Lengkapi pernyataan berdasarkan materi: Topik: Gerak Lurus | Poin Penting: - Kecepatan rata-rata dihitung dengan rumus v = s / t. - Sebuah benda menempuh jarak 120 m dalam waktu _____, sehingga kecepatan rata-ratanya 12 m/s. - Kecepatan menunjukkan perubahan posisi terhadap waktu",
+      "question_type": "multiple_choice",
+      "answer": "10 s",
+      "answer_type": "number",
+      "options": [
+        {
+          "label": "A",
+          "text": "20 s",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "15 s",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "5 s",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "10 s",
+          "is_correct": true
+        }
+      ],
+      "distractors": [
+        "5 s",
+        "20 s",
+        "15 s"
+      ],
+      "alignment_check": null,
+      "candidate_score": 7.7,
+      "candidate_source": "number_with_unit",
+      "question_source": "template_fallback",
+      "source_file": "sample_ppt_id",
+      "section": "Gerak Lurus",
+      "chunk_index": 1
+    },
+    {
+      "id": "Q005",
+      "lang": "id",
+      "question": "Lengkapi pernyataan berdasarkan materi: Topik: Gerak Lurus | Poin Penting: - Kecepatan rata-rata dihitung dengan rumus v = s / t. - Sebuah benda menempuh jarak 120 m dalam waktu 10 s, sehingga kecepatan rata-ratanya _____. - Kecepatan menunjukkan perubahan posisi terhadap waktu",
+      "question_type": "multiple_choice",
+      "answer": "12 m/s",
+      "answer_type": "number",
+      "options": [
+        {
+          "label": "A",
+          "text": "22 m/s",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "6 m/s",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "12 m/s",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "24 m/s",
+          "is_correct": false
+        }
+      ],
+      "distractors": [
+        "6 m/s",
+        "24 m/s",
+        "22 m/s"
+      ],
+      "alignment_check": null,
+      "candidate_score": 7.7,
+      "candidate_source": "number_with_unit",
+      "question_source": "template_fallback",
+      "source_file": "sample_ppt_id",
+      "section": "Gerak Lurus",
+      "chunk_index": 1
+    },
+    {
+      "id": "Q006",
+      "lang": "en",
+      "question": "Complete the statement based on the material: Topic: _____ | Key Points: - Average speed is calculated using v = s / t. - An object travels 150 m in 5 s, so its average speed is 30 m/s. - Speed describes the rate of change of distance over time",
+      "question_type": "essay",
+      "answer": "Linear Motion",
+      "answer_type": "text",
+      "options": null,
+      "distractors": [],
+      "alignment_check": null,
+      "candidate_score": 7.2,
+      "candidate_source": "bold_text",
+      "question_source": "template_fallback",
+      "source_file": "sample_ppt_en",
+      "section": "Linear Motion",
+      "chunk_index": 2
+    },
+    {
+      "id": "Q007",
+      "lang": "en",
+      "question": "Complete the statement based on the material: Topic: Linear Motion | Key Points: - Average speed is calculated using _____. - An object travels 150 m in 5 s, so its average speed is 30 m/s. - Speed describes the rate of change of distance over time",
+      "question_type": "multiple_choice",
+      "answer": "v = s / t",
+      "answer_type": "formula",
+      "options": [
+        {
+          "label": "A",
+          "text": "v = s - t",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "v = s + t",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "v = s × t",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "v = s / t",
+          "is_correct": true
+        }
+      ],
+      "distractors": [
+        "v = s × t",
+        "v = s + t",
+        "v = s - t"
+      ],
+      "alignment_check": null,
+      "candidate_score": 9.5,
+      "candidate_source": "formula_span",
+      "question_source": "template_fallback",
+      "source_file": "sample_ppt_en",
+      "section": "Linear Motion",
+      "chunk_index": 2
+    },
+    {
+      "id": "Q008",
+      "lang": "en",
+      "question": "Complete the statement based on the material: Topic: Linear Motion | Key Points: - Average speed is calculated using v = s / t. - An object travels _____ in 5 s, so its average speed is 30 m/s. - Speed describes the rate of change of distance over time",
+      "question_type": "multiple_choice",
+      "answer": "150 m",
+      "answer_type": "number",
+      "options": [
+        {
+          "label": "A",
+          "text": "150 m",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "300 m",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "75 m",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "160 m",
+          "is_correct": false
+        }
+      ],
+      "distractors": [
+        "75 m",
+        "300 m",
+        "160 m"
+      ],
+      "alignment_check": null,
+      "candidate_score": 7.7,
+      "candidate_source": "number_with_unit",
+      "question_source": "template_fallback",
+      "source_file": "sample_ppt_en",
+      "section": "Linear Motion",
+      "chunk_index": 2
+    },
+    {
+      "id": "Q009",
+      "lang": "en",
+      "question": "Complete the statement based on the material: Topic: Linear Motion | Key Points: - Average speed is calculated using v = s / t. - An object travels 150 m in _____, so its average speed is 30 m/s. - Speed describes the rate of change of distance over time",
+      "question_type": "multiple_choice",
+      "answer": "5 s",
+      "answer_type": "number",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 s",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "5 s",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "10 s",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "2.5 s",
+          "is_correct": false
+        }
+      ],
+      "distractors": [
+        "2.5 s",
+        "10 s",
+        "15 s"
+      ],
+      "alignment_check": null,
+      "candidate_score": 7.7,
+      "candidate_source": "number_with_unit",
+      "question_source": "template_fallback",
+      "source_file": "sample_ppt_en",
+      "section": "Linear Motion",
+      "chunk_index": 2
+    },
+    {
+      "id": "Q010",
+      "lang": "en",
+      "question": "Complete the statement based on the material: Topic: Linear Motion | Key Points: - Average speed is calculated using v = s / t. - An object travels 150 m in 5 s, so its average speed is _____. - Speed describes the rate of change of distance over time",
+      "question_type": "multiple_choice",
+      "answer": "30 m/s",
+      "answer_type": "number",
+      "options": [
+        {
+          "label": "A",
+          "text": "40 m/s",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "15 m/s",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "30 m/s",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "60 m/s",
+          "is_correct": false
+        }
+      ],
+      "distractors": [
+        "15 m/s",
+        "60 m/s",
+        "40 m/s"
+      ],
+      "alignment_check": null,
+      "candidate_score": 7.7,
+      "candidate_source": "number_with_unit",
+      "question_source": "template_fallback",
+      "source_file": "sample_ppt_en",
+      "section": "Linear Motion",
+      "chunk_index": 2
+    }
+  ],
+  "demo_note": "Untuk output mT5, jalankan ulang dengan --model-dir menunjuk folder hasil fine-tuning yang berisi config/tokenizer/model weights."
+}

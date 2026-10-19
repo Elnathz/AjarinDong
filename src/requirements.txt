@@ -1,0 +1,11 @@
+# Document parsers (all open-source; install only what input formats require)
+pymupdf>=1.24
+python-pptx>=1.0
+python-docx>=1.1
+langdetect>=1.0.9
+
+# Local mT5 inference; model weights must be downloaded/copied locally first.
+transformers>=5.10.0,<5.18.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+# Install the correct torch build for your machine separately if needed.
