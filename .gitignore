@@ -1,0 +1,49 @@
+# Antigravity Agent & Local Memory
+.agents/
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.env
+
+# Jupyter & Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model Weights, Large Binaries & Checkpoints (JANGAN commit ke Git)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+spiece.model
+models/*
+!models/.gitkeep
+checkpoints/
+ckpt-*/
+mt5-base-aqg-*/
+
+# ZIP Bundles & Archives
+*.zip
+*.tar.gz
+*.7z
+
+# Outputs & Generated Artifacts
+outputs/*
+!outputs/.gitkeep
+eda_and_eval_plots/
+*.log
+
+# OS & Editor Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
